@@ -321,7 +321,7 @@ nav li {
 }
 
 .countdown ul {
-	max-width: 97%;
+	max-width: 100%;
 	margin-bottom: 20px;
 }
 
@@ -691,4 +691,25 @@ nav a:hover{
 	position: relative;
 	overflow: hidden;
 }
-
+.rotate{
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
+	position: relative;
+}
+.rotate:hover{
+	transform: rotate(160deg);
+	-moz-transform: rotate(160deg);
+	-o-transform: rotate(160deg);
+	-webkit-transform: rotate(160deg);
+}
+.rotate+p {
+	font-size: 23px;
+	width: 130px;
+	display: block;
+	left: 54px;
+	margin-top: -138px;
+	position: absolute;
+	z-index: 1000;
+}
