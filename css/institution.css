@@ -1,0 +1,129 @@
+
+/*正文部分样式*/
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.container .Banner img{
+    width: 100%;
+    margin-bottom:20px;
+    min-width: 1349px;
+}
+.container .recommend{
+   height: 730px;
+    width:100%;
+    min-width: 1349px;
+}
+.container .recommend .recommend_block {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.container .recommend .recommend_block img{
+    width:100%;
+    display: block;
+    margin-bottom:20px;
+
+}
+.container .recommend .recommend_block p{
+    font-size: 15px;
+    text-indent: 30px;
+}
+
+.platform_rec{
+    background-image: url(../image/school/03.png);
+    height: 790px;
+    min-width: 1349px;
+}
+.platform_rec img{
+    width:100%;
+}
+.platform_rec img+div{
+    /*position:absolute;*/
+    top:0;
+}
+.platform_rec .platform_block{
+    width: 1200px;
+    /*height: 150px;*/
+    margin: 0 auto;
+}
+.platform_rec .platform_block h4{
+    color: #fff;
+    display: block;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    clear: both;
+    margin-bottom: 32px;
+}
+.platform_rec .platform_block p{
+    color: #fff;
+    position: absolute;
+    top: 56px;
+    left: 46px;
+    font-size: 41px;
+}
+.platform_rec .platform_block li{
+    float: left;
+    width: 173px;
+    margin-left: 52px;
+    position: relative;
+    margin-bottom:45px;
+    margin-top: 20px;
+    text-align: center;
+}
+.platform_rec .platform_block li span{
+    font-size: 32px;
+    border: 1px solid #21a021;
+    padding: 42px;
+}
+.platform_rec .platform_summary li{
+    margin-left: 88px;
+    margin-top: 80px;
+}
+.left_block ,.right_block{
+    display: inline-block;
+}
+.school_decs_block p {
+    width: 392px;
+    font-size: 17px;
+    text-indent: 30px;
+    position: absolute;
+    top: -86px;
+    left: 85px;
+}
+.school_rec li {
+    clear: both;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.school_decs_img img {
+     width: 400px;
+ }
+.school_decs {
+    margin: 0 auto;
+    width: 920px;
+    margin-top: 40px;
+}
+.right_block.school_decs_block {
+    position: relative;
+}
+.right_block.school_decs_img {
+    float: right;
+}
+.left_block.school_decs_block {
+    position: relative;
+    left: -82px;
+    top: 97px;
+}
+.school_rec li:nth-child(3) p {
+    font-size: 17px;
+    width: 920px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 32px;
+}

@@ -1,0 +1,67 @@
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.container .Banner img{
+    width: 100%;
+    margin-bottom:20px;
+    min-width: 1349px;
+}
+.tutor {
+    width: 1349px;
+    margin: 0 auto;
+}
+.tutor ul{
+    width: 1150px;
+    margin: auto;
+}
+.tutor li {
+    clear: both;
+    border: 1px solid #39acde;
+    height:223px;
+    position: relative;
+    margin: 20px 0px 70px 0px;
+}
+.tutor li img {
+    width: 220px;
+    position: absolute;
+}
+.tutor .left_tutor_summary {
+    width: 850px;
+    float: right;
+    position: absolute;
+    right: 49px;
+    top: 40px;
+}
+.tutor .right_tutor_summary{
+    width: 850px;
+    float: left;
+    position: absolute;
+    left: 47px;
+    top: 35px;
+}
+.right_tutor_summary p {
+    display: block;
+    clear: both;
+}
+.tutor_right {
+    float: right;
+}
+.tutor .left_tutor_summary h4,.right_tutor_summary h4 {
+    display: block;
+    margin-top: -15px;
+    font-weight: 400;
+}
+.tutor  h4.name {
+    color: #39acde;
+}
+.tutor ul>li:nth-child(1) img,.tutor ul>li:nth-child(3) img,.tutor ul>li:nth-child(5) img,.tutor ul>li:nth-child(7) img{
+    bottom: 0;
+    left: 0;
+}
+.tutor ul>li:nth-child(2) img,.tutor ul>li:nth-child(4) img,.tutor ul>li:nth-child(6) img{
+    right: 0;
+    bottom: 0;
+}

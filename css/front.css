@@ -15,10 +15,17 @@ nav,
 footer {
     width: 100%;
 }
-
-.nav_box,
+.nav_box {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+nav ul>li:first-child {
+    margin-left: 0!important;
+}
 .contain_box {
-    width: 1349px;
+    min-width: 1349px;
     margin: 0 auto;
 }
 
@@ -85,6 +92,8 @@ nav a {
 
 .countdown {
     height: 130px;
+    min-width: 1349px;
+    margin: 0 auto;
 }
 
 .countdown p {
@@ -197,14 +206,20 @@ footer,
 }
 
 footer {
-    background-color: #323232;
     height: 280px;
+    background-color: #323232;
+    width: 100%;
+    min-width: 1349px;
+    margin: 0 auto;
 }
 
 footer a {
-    color: #a7a7a7;
+    color: #736c6c;
 }
-
+footer a:visited,footer a:active{
+    text-decoration: none!important;
+    color: #736c6c;
+}
 .link h4 {
     color: #fff;
     font-weight: 600;
@@ -235,6 +250,7 @@ img.syllabus_content {
 
 nav {
     height: 40px;
+    min-width: 1349px;
 }
 
 nav img {
@@ -247,7 +263,7 @@ nav a {
 }
 
 nav li {
-    margin-left: 4.5%;
+    margin-left: 6.7%;
 }
 .prospect_desc h4 {
     width: 222px;
@@ -283,17 +299,16 @@ nav li {
 }
 
 .countdown ul {
-    max-width: 97%;
+    width: 1200px;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
 .countdown p {
-    margin-left: 5%;
+    margin-left: 9%;
+    font-size: 15px;
 }
 
-.countdown li {
-    margin-bottom: 10px;
-}
 
 .countdown a img {
     margin-left: 10%;
@@ -322,21 +337,15 @@ span.learnmore {
 }
 
 .html5 li {
-    max-width: 183px;
-    margin-left: 7px;
+    max-width: 189px;
+    margin-left: 65px;
     margin-bottom: 43px;
 }
+.html5_prospect_block {
+    width: 1200px;
+    margin: 0 auto;
+}
 
-.broadcast_content img,
-.video img,
-.activity img {
-    max-width: 182px;
-}
-.broadcast_content li,
-.video li,
-.activity li{
-    margin-left: 8px;
-}
 
 .activity li {
     margin-bottom: 50px;
@@ -357,6 +366,7 @@ span.learnmore {
 .html5 {
     height: 600px;
     margin-bottom: 20px;
+    margin-top: 45px;
 }
 .prospect_desc p {
     display: block;
@@ -420,38 +430,16 @@ img.syllabus_content {
     padding-top: 10px;
 }
 
-.video_content {
-    margin-left: -10%;
-}
 
 .up li,
 .down li {
     margin-bottom: 20px;
 }
 
-.teacher li img,
-.teacher ul li {
-    max-width: 305px;
-    margin-bottom: -10px;
-}
 
-.teacher_description {
-    max-width: 52%;
-    float: right;
-    margin-top: -163px;
-    padding: 4px;
-}
-
-.teacher_description p,
-.teacher_description a {
-    font-size: 12px;
-    text-indent: 13px;
-}
 
 .teacher_description h5 {
-    font-size: 16px;
     font-weight: 500;
-    padding-top: 8px;
 }
 
 .teacher ul li {
@@ -534,7 +522,7 @@ p.info_text.subscription {
 
 .float_block {
     position: fixed;
-    right: 0;
+    left: 0;
     top: 280px;
     z-index: 130;
 }
@@ -548,20 +536,13 @@ p.info_text.subscription {
     max-width: 182px;
 }
 
-.video_content ul>li:first-child {
-    margin-left: -20px;
-}
-
-.video_content ul li  {
-    margin-left: 11px;
-}
 
 .desc p,
 .html5_desc p,
 .skills_desc p {
     font-size: 16px;
 }
-.html5_desc+img {
+.html5_desc+a img {
     margin: 0 auto;
     display: block;
     width: 200px;
@@ -570,21 +551,31 @@ p.info_text.subscription {
 .html5_desc h4{
     color:#fff;
 }
+.html5_desc {
+    clear: both;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+}
 .html5_desc h4,
 .prospect_desc h4,
 .desc h4,
 .skills_desc h4 {
     font-size: 23px;
     display: block;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
-a:hover{
+footer a:hover{
     color:#fff!important;
 }
 nav a:hover {
     color: #39acde!important;
 }
-
+.learn_more:hover{
+    color:#39acde;
+}
 .specific:hover {
     cursor: pointer;
 }
@@ -617,7 +608,7 @@ td {
 td>p {
     text-align: left;
     margin-left: 15px;
-    width: 600px;
+    width: 800px;
 }
 
 tr>th:first-child {
@@ -628,13 +619,6 @@ tr>th:nth-child(2) {
     width: 120px;
 }
 
-.col-xs-8 {
-    width: 73%;
-}
-
-.col-xs-2 {
-    width: 13.667%;
-}
 
 .table {
     width: 1200px;
@@ -671,41 +655,41 @@ tr>th:nth-child(2) {
 }
 .shadow{
     background: black;
-    width: 182px;
+    width: 231px;
     height: 150px;
     position: absolute;
-    top:250px;
+    top:343px;
     transition:top 1.5s;
     opacity: 0.5;
 }
 
 .broadcast_content li:hover .shadow{
-    top:195px;
+    top:255px;
 }
 .up li:hover .shadow,.down li:hover .shadow{
-    top:195px;
+    top:255px;
 }
 .activity li:hover .shadow{
-    top:195px;
+    top:255px;
 }
 .text-primary{
     color:#39acde!important;
 }
 .prospect-table td>p {
-    width: 300px;
-    font-size: 17px;
+    width: 395px;
+    font-size: 24px;
     color: #f7114f;
 }
 .prospect-table {
-    margin-top: 70px;
-    margin-left: 95px;
+    margin-top: 108px;
+    margin-left: 106px;
     border: 2px solid #f7114f;
 }
-.prospect-table+img {
-    width: 173px;
-    margin-top: 31px;
+.prospect-table+a img {
+    width: 212px;
+    margin-top: 52px;
     display: block;
-    margin-left: 184px;
+    margin-left: 222px;
 }
 .prospect-table tr {
     border-bottom: 2px solid #f7114f;
@@ -713,3 +697,99 @@ tr>th:nth-child(2) {
 .col-xs-6.column {
     margin-bottom: 50px;
 }
+table.syllabus_content.table-bordered {
+    width: 1200px;
+}
+table.syllabus_content.table-bordered th {
+    width: 150px;
+}
+.broadcast_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.broadcast_content img,
+.video img,
+.video img{
+    max-width: 243px;
+}
+.broadcast_content li, .video li, .activity li {
+    margin-left: 11px;
+}
+.video_content ul li {
+    margin-left: 24px;
+}
+
+.teacher li img,
+.teacher ul li {
+    max-width: 388px;
+    margin-top: -6px;
+}
+
+.teacher_description {
+    max-width: 52%;
+    float: right;
+    margin-top: -180px;
+    padding: 4px;
+}
+
+.teacher_description p,
+.teacher_description a {
+    font-size: 14px;
+    text-indent: 13px;
+}
+
+.teacher_description h5 {
+    font-size: 18px;
+    margin-top: -4px;
+}
+
+.teacher ul li {
+    margin-left: 10px;
+}
+.teacher {
+    margin: 0 auto;
+    width: 1200px;
+}
+.activity_block {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.activity img{
+    max-width: 230px;
+}
+.video_content {
+    width: 800px;
+    margin: 0 auto;
+}
+.html5_desc+a img:hover{
+    width:180px;
+}
+.prospect-table+a img:hover{
+    width:200px;
+}
+/*马上报名特效*/
+.img-bm{
+    background: url(../image/index/05course/03.png) no-repeat;
+    display: inline-block;
+    margin-left: 20px;
+    width: 98px;
+    height: 27px;
+    margin-top: -5px;
+}
+.img-bm:hover{
+    background-position-y: -27px;
+}
+.left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.countdown li {
+    clear: both;
+}
+p.time.left {
+    margin-right: 100px;
+}
+

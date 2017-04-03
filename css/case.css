@@ -1,0 +1,73 @@
+/*正文样式*/
+.FBanner img{
+    width:100%;
+    min-width: 1349px;
+}
+.right_case  p {
+    color: #666;
+    display: block;
+    width: 571px;
+    text-align: left;
+    float: right;
+    font-size: 18px;
+    margin-top: -220px;
+}
+.case_example {
+    width: 100%;
+    min-width: 1349px;
+}
+.case_example_block {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 29px;
+    margin-bottom: 127px;
+    clear: both;
+}
+.right_case {
+    width: 550px;
+    float: right;
+}
+.left_case p{
+    color: #666;
+    display: block;
+    width: 491px;
+    text-align: left;
+    font-size: 18px;
+}
+.right_case img {
+    margin-top: -62px;
+}
+.case_img {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+.case_banner p {
+    color: #fff;
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: -130px;
+    text-align: center;
+}
+.case_example>.case_example_block:nth-child(3){
+    min-width:1349px;
+    width:100%;
+}
+.case_banner {
+    position: relative;
+}
+.case_banner>img {
+     width: 100%;
+     min-width: 1349px;
+     margin-top: 30px;
+ }
+.case_img img {
+    width: 1200px;
+    display: block;
+    margin:0 auto;
+    margin-top: 63px;
+}
+.clicked{
+    color:#39acde!important;
+}

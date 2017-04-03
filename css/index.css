@@ -9,7 +9,9 @@ li {
 	padding-left: 0;
 	margin-left: 0;
 }
-
+a:active,a:visited{
+	text-decoration: none;
+}
 p,
 a,
 h5,
@@ -21,6 +23,13 @@ img.nav_sign_button1.img-responsive,
 img.nav_sign_button2.img-responsive {
 	display: inline;
 }
+img.prompt_banner {
+	width: 100%;
+	min-width: 1349px;
+}
+.prompt_box {
+	position: relative;
+}
 
 .prompt_box,
 header,
@@ -28,16 +37,31 @@ header,
 footer {
 	width: 100%;
 }
-
-.prompt-seg {
-	width: 1349px;
-	position: relative;
-	top: -56px;
+header {
+	background-color: #39acde;
+	min-width: 1349px;
 }
-
-.contain,
+.breadcrumbs {
+	width: 1349px;
+	margin: 0 auto;
+}
+.prompt-seg {
+	width: 1200px;
+	margin: 0 auto;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.contain {
+	margin: 0 auto;
+	width: 1200px;
+}
+.contain_box {
+	min-width: 1349px;
+}
 .footer-content {
-	width: 1346px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -46,30 +70,30 @@ footer {
 }
 
 .bussiness_name {
-	width: 920px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .logo {
 	display: inline;
 }
 
-ul.nav-list li {
+ul.nav-list>li {
 	display: inline;
 }
 
 ul.nav-list {
 	display: inline-block;
 }
-
 ul.nav-list li a:hover {
 	color: #39acde;
 }
-
 .ul-menu {
 	background-image: url(../image/index/02nav/background.png);
 	position: absolute;
-	left: 68%;
+	left: 22px;
 	z-index: 120;
+	width: 110px;
 }
 
 .carousel_topic span {
@@ -77,7 +101,6 @@ ul.nav-list li a:hover {
 }
 
 .company_content {
-	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -116,10 +139,10 @@ ul.ul-menu li a,
 
 ul.ul-menu li a {
 	padding: 16px 0 0 0;
+	text-align: center;
 }
 
 ul.ul-menu li:nth-child(4) {
-	display: inline-block;
 	margin-bottom: 15px;
 }
 
@@ -134,11 +157,12 @@ ul.ul-menu li:nth-child(4) {
 }
 
 .carousel_topic {
-	background-image: url(../image/index/02nav/transbg.png);
 	width: 20%;
 	position: absolute;
 	z-index: 100;
 	font-size: 14px;
+	background-color: rgba(56,64,64,0.87);
+	height: 363px;
 }
 
 .partition ul>li:first-child {
@@ -191,21 +215,24 @@ footer {
 }
 
 .course_info.course_info_first .course_info_list p {
-	margin-left: 8px;
+	margin-left: 28px;
 }
 
 .course_info.course_info_first {
 	border-left: 0;
 }
 
-.resource_info_first div img,
+.resource_info_first ,
 .recommend_info_first img,
 .student_info_first img,
 .blog_info_first img,
 .display_info_first img {
 	margin-left: 0!important;
 }
-
+.course_content_part{
+	width:100%;
+	margin:0 auto;
+}
 .recommend_info p,
 .student_info p,
 .blog_info p {
@@ -273,6 +300,7 @@ footer {
 footer {
 	background-color: #323232;
 	height: 280px;
+	min-width: 1349px;
 }
 
 footer a {
@@ -311,7 +339,7 @@ footer a {
 
 .float_block {
 	position: fixed;
-	right: 0;
+	left: 7px;
 	top: 280px;
 	z-index: 130;
 }
@@ -325,22 +353,18 @@ img.line {
 	position: absolute;
 	top: 125px;
 }
-
 .prompt_button {
-	position: absolute;
-	top: 13px;
-	left: 66%;
+	margin-top: 20px;
 }
 
 .prompt_close {
-	position: absolute;
-	left: 74%;
-	top: 0;
+	float: right;
 }
 
 .business_content {
-	background-color: #39acde;
 	height: 40px;
+	width:1200px;
+	margin:0 auto;
 }
 
 .business_content p {
@@ -351,7 +375,7 @@ img.line {
 }
 
 p.business_description {
-	margin-left: 14%;
+	margin-left: 33%;
 }
 
 .col-xs-8 {
@@ -366,17 +390,32 @@ p.business_description {
 .logo {
 	max-width: 186px;
 }
-
-.navigation {
-	margin-bottom: 20px;
+.navigation{
+	width: 1349px;
+	margin: 0 auto;
 }
-
+.navigation_content {
+	margin: 0 auto;
+	width:1200px;
+}
+.navigation .logo {
+	max-width: 186px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.carousel_block {
+	height: 286px;
+}
 img.nav_sign_button1.img-responsive,
 img.nav_sign_button2.img-responsive {
 	max-width: 75px;
-	margin-left: 1%;
+	float: right;
+	margin-top:18px;
+	margin-right:20px;
 }
-
+.nav-list>li:nth-child(5) {
+	position: relative;
+}
 ul.ul-menu span {
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -386,15 +425,15 @@ ul.ul-menu span {
 
 ul.nav-list {
 	display: inline-block;
-	margin-left: 1%;
 }
 
 ul.nav-list li a {
 	font-size: 15px;
 }
 
-ul.nav-list li {
-	padding: 18px;
+ul.nav-list>li {
+	padding-left: 43px;
+	padding-right: 43px;
 }
 
 .news_title {
@@ -408,12 +447,12 @@ ul.nav-list li {
 }
 
 .carousel_pic img {
-	width: 685px;
+	width: 870px;
 }
 
 .news {
-	margin-left: -9%;
-	margin-right: 2.5%;
+	margin-left: -2%;
+	margin-right: -4.5%;
 	margin-top: -10px;
 }
 
@@ -431,7 +470,7 @@ ul.nav-list li {
 /*文字滚动的开始*/
 .myscroll {
 	background: #f6f6f6;
-	height: 249px;
+	height: 327px;
 	border: 1px solid #ccc;
 	line-height: 26px;
 	font-size: 10px;
@@ -453,7 +492,7 @@ ul.nav-list li {
 .myscroll a {
 	text-decoration: none;
 	font-size: 14px;
-	font-family: 微软雅黑;
+	font-family: "Microsoft YaHei";
 	color: #333333;
 }
 
@@ -463,10 +502,7 @@ ul.nav-list li {
 }
 /*文字滚动的结束*/
 .carousel_topic span {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding:15px;
 }
 
 .carousel_topic ul li:first-child {
@@ -478,11 +514,14 @@ ul.nav-list li {
 }
 
 .partition ul li {
-	max-width: 180px;
-	margin-left: 4px;
+	max-width: 222px;
+	margin-left: 18px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .partition {
+	margin: 0 auto;
 	margin-top: 17px;
 	margin-bottom: 130px;
 }
@@ -490,8 +529,10 @@ ul.nav-list li {
 p.nation_info {
 	font-size: 16px;
 	font-weight: 700;
-	display: inline-block;
-	margin-left: 41%;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .course_info_list a {
@@ -500,19 +541,31 @@ p.nation_info {
 
 .course_info_list p {
 	font-size: 12px;
-	margin-left: 8px;
+	margin-left: 35px;
 }
 
 .course_info_list a {
-	margin-left: 6px;
-	margin-right: 9px;
+	margin-left: 10px;
+	margin-right: 30px;
 }
 
 .course_border {
-	width: 917px;
+	width: 1183px;
 	height: 177px;
 }
-
+.recommend {
+	height: 302px;
+}
+.course_content_part h4{
+	width:1200px;
+	display: block;
+	margin:0 auto;
+}
+.recommend h4,.resource h4 ,.course_content_part h4,.teacher h4,.student h4,.blog h4,.display h4{
+	text-align: left;
+	display: block;
+	padding: 10px;
+}
 h4 {
 	margin-bottom: 25px;
 	color: #666;
@@ -520,7 +573,11 @@ h4 {
 	font-weight: 700;
 	display: inline-block;
 }
-
+.java,.bigdata,.front,.ui{
+	width:1200px;
+	margin:0 auto;
+	margin-top: 20px;
+}
 .course {
 	margin-bottom: 45px;
 }
@@ -529,8 +586,9 @@ h4 {
 .student_info img,
 .blog_info img,
 .resource_info img {
-	max-width: 181px;
-	margin-left: 3px;
+
+	max-width: 222px;
+	margin-left: 21px;
 }
 
 .recommend_info p,
@@ -542,12 +600,13 @@ h4 {
 .recommend_info,
 .student_info,
 .blog_info {
-	margin-bottom: 35px;
+	margin-bottom: 26px;
 }
 
 .resource_info a {
 	display: inherit;
 	margin-top: -42px;
+	margin-left: 20px;
 }
 
 .resource_info {
@@ -559,13 +618,14 @@ h4 {
 }
 
 .topic img {
-	max-width: 176px;
+	max-width: 220px;
 	margin-bottom: 28px;
 }
 
 .up img,
 .down img {
-	max-width: 179px;
+	max-width: 220px;
+	margin-left: 17px;
 }
 
 .up,
@@ -574,34 +634,36 @@ h4 {
 }
 
 .down img {
-	margin-top: 162px;
+	margin-top: 200px;
 }
 
 .teacher li img,
 .teacher ul li {
-	max-width: 302px;
+	max-width: 388px;
 	margin-top: -6px;
 }
 
 .teacher_description {
 	max-width: 52%;
 	float: right;
-	margin-top: -163px;
+	margin-top: -200px;
 	padding: 4px;
 }
 
 .teacher_description p,
 .teacher_description a {
-	font-size: 12px;
+	font-size: 14px;
 	text-indent: 13px;
 }
 
 .teacher_description h5 {
-	font-size: 16px;
+	font-size: 17px;
 }
-
+.teacher_description>h5:nth-child(2) {
+	font-size: 15px;
+}
 .teacher ul li {
-	margin-left: 6px;
+	margin-left: 15px;
 }
 
 .teacher ul li {
@@ -609,7 +671,7 @@ h4 {
 }
 
 .display_info img {
-	max-width: 228px;
+	max-width: 237px;
 	margin-left: 2px;
 	margin-bottom: 34px;
 }
@@ -659,11 +721,12 @@ li.address p {
 }
 
 .course_content {
-	height: 1450px;
+	height: 1800px;
+	margin-bottom: 20px;
 }
 
 .am-slider-default .am-control-nav {
-	width: 98%;
+	width: 108%;
 	position: absolute;
 	bottom: 12px;
 	text-align: center;
@@ -676,7 +739,7 @@ li.address p {
 
 .code img {
 	position: absolute;
-	top: 3px;
+	top: 8px;
 	left: 81%;
 	max-width: 84px;
 }
@@ -707,7 +770,7 @@ p.info_text.subscription {
 }
 
 .down img:hover {
-	margin-top: 147px;
+	margin-top: 190px;
 	box-shadow: 5px 6px 4px #d5d4d4;
 }
 
@@ -844,5 +907,44 @@ ul.ul-menu a:hover {
 	cursor: pointer;
 }
 .bussiness_name a:hover{
-	color:#666;
+	color:#333;
+}
+.link {
+	margin: 0 auto;
+	width: 100%;
+}
+.desc_cont{
+	float: right;
+}
+footer a:hover{
+	color:#fff;
+}
+.clicked{
+	color:#333!important;
+}
+.prompt_seg_box {
+	width: 140px;
+	position: absolute;
+	right: 298px;
+}
+a.am-prev {
+	left: 22%;
+}
+.myscroll li a p{
+	display: block;
+	width:97%;
+	margin:0 auto;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.myscroll li a:hover{
+	text-decoration: none;
+}
+.myscroll li a p:hover{
+	color:#39acde;
+}
+footer a:visited,footer a:active{
+	text-decoration: none!important;
+	color: #736c6c;
 }
