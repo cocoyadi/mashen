@@ -39,9 +39,6 @@ nav ul>li:first-child {
     width: 19%;
     margin-left: 42.5%;
 }
-.FBanner{
-    margin-bottom: 20px;
-}
 a:hover {
     text-decoration: none;
 }
@@ -91,7 +88,7 @@ nav a {
 }
 
 .countdown {
-    height: 130px;
+    height: 110px;
     min-width: 1349px;
     margin: 0 auto;
 }
@@ -110,6 +107,7 @@ nav a {
 .countdown ul {
     border-left: 1px solid #666;
     border-right: 1px solid #666;
+    height: 98px;
 }
 
 .ui_desc,
@@ -366,7 +364,6 @@ span.learnmore {
 .html5 {
     height: 600px;
     margin-bottom: 20px;
-    margin-top: 45px;
 }
 .prospect_desc p {
     display: block;
