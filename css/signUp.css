@@ -1,0 +1,287 @@
+@charset "utf-8";
+.contain-text {
+	width: 100%;
+	height: 2650px;
+	background-image: url(../image/signUp/01.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #ffe5a3;
+	clear: both;
+}
+
+.contain-text .contain1200 {
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid transparent;
+}
+
+.contain-text .contain1200 .header h2 {
+	margin-top: 80px;
+	margin-left: 180px;
+	letter-spacing: 0.3em;
+}
+
+.contain-text .contain1200 .header a {
+	display: block;
+	margin-top: 60px;
+	font-size: 1.6em;
+	margin-left: 290px;
+	width: 100px;
+	padding-left: 5px;
+	color: white;
+	background: #c84360;
+}
+
+.contain-text .contain1200 .header .query {
+	margin-top: 180px;
+	color: #c84360;
+	font-size: 22px;
+	text-align: center;
+}
+
+.contain-text .contain1200 .header .query label{
+	background: white;
+	border: 1px solid white;
+	border-bottom: 3px solid white;
+	margin-right: -7px;
+	font-size: 18px;
+}
+
+.contain-text .contain1200 .header .query select{
+	border: 1px solid white; 
+	background: #ffe5a3;
+	font-size: 14px;
+	padding: 3px;
+	color: #000000;
+}
+
+.contain-text .contain1200 .header .query .signUp{
+	width: 1200px;
+	background: white;
+	margin-top: 20px;
+	display: none;
+}
+
+.contain-text .contain1200 .header .query .signUp .singUp-in{
+	width: 700px;
+	margin: 0 auto;
+	color: #000000;
+	font-size: 18px;
+}
+
+.contain-text .contain1200 .header .query .signUp .singUp-in:nth-child(1){
+	padding-top: 20px;
+}
+
+.contain-text .contain1200 .header .query .signUp .singUp-in:nth-child(5){
+	padding-bottom: 20px;
+}
+
+.contain-text .contain1200 .header .query .signUp .singUp-in span{
+	margin-left: 70px;
+}
+
+.contain-text .contain1200 .header .query .signUp .singUp-in time{
+	margin-left: 80px;
+}
+
+.contain-text .contain1200 .header .query .signUp .singUp-in a{
+	display: block;
+	background: url(../image/index/05course/03.png) no-repeat;
+	margin-top: 3px;
+	margin-left: 80px;
+	width: 98px;
+	height: 27px;
+}
+
+.contain-text .contain1200 .header .query .signUp .singUp-in .img-bm:hover{
+	background-position-y: -27px;
+}
+
+.contain-text .contain1200 .header .query hr{
+	border-top: 1px dashed #eee ;
+	width: 700px;
+	margin-top: 10px;
+}
+
+.contain-text .contain1200 .process{
+	clear: both;
+	height:700px;
+	margin-top: 70px;
+	color:#666;
+}
+
+.contain-text .contain1200 .process #line{
+	height:1600px;
+	margin-left: 80px;
+	width: 2px;
+	border-left: 3px solid #edcc73;
+	position: relative;
+}
+
+.contain-text .contain1200 .process #line .first{
+    position: absolute;
+    left: -35px;
+    top:-20px;
+}
+
+.contain-text .contain1200 .process #line .second{
+    position: absolute;
+    left: -35px;
+    top:350px;
+}
+
+.contain-text .contain1200 .process #line .third{
+    position: absolute;
+    left: -35px;
+    top: 850px;
+}
+.contain-text .contain1200 .process #line .fourth{
+    position: absolute;
+    left: -35px;
+    top: 1130px;
+}
+.contain-text .contain1200 .process #line .fifth{
+    position: absolute;
+    left: -35px;
+    top: 1530px;
+}
+.contain-text .contain1200 .process #line .text-first{
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 820px;
+	height: 400px;
+}
+.contain-text .contain1200 .process #line .text-first span{
+	color: #666;
+	font-size: 16px;
+}
+.contain-text .contain1200 .process #line .text-first h4:nth-child(4){
+	margin-left: 300px;
+}
+.contain-text .contain1200 .process #line .text-second{
+	position: absolute;
+	top: 430px;
+	left: 80px;
+	width: 820px;
+	height: 350px;
+}
+.contain-text .contain1200 .process #line .text-third{
+	position: absolute;
+	top: 930px;
+	left: 80px;
+	width: 820px;
+	height: 200px;
+}
+.contain-text .contain1200 .process #line .text-fourth{
+	position: absolute;
+	top: 1210px;
+	left: 80px;
+	width: 820px;
+	height: 200px;
+}
+.contain-text .contain1200 .process #line .text-fourth a{
+    display: block;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-left: 20px;
+	color: white;
+	background: #c84360;
+	border: 1px solid #c84360;
+	border-radius: 4px;
+	margin:  0 auto;
+	margin-top: 60px;
+}
+.contain-text .contain1200 .process #line .text-fifth{
+	position: absolute;
+	top: 1630px;
+	left: 80px;
+	width: 820px;
+	height: 400px;
+}
+.contain-text .contain1200 .process #line .text-fifth div{
+	width: 100%;
+	text-align: center;
+	margin-top: 60px;
+}
+.contain-text .contain1200 .process #line .text-fifth div a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	font-size: 20px;
+	padding-top: 5px;
+	color: white;
+	background: #c84360;
+	border: 1px solid #c84360;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+/*.process .SignTable form table tr{*/
+	/*height: 60px;*/
+	/*font-size: 1.2em;*/
+	/*vertical-align: top;*/
+	/*padding-top: 0.8em;*/
+	/**/
+/*}*/
+/*.process .SignTable form table tr input{*/
+	/*border: 1px solid white;*/
+	/*border-radius: 5px;*/
+	/*height: 2em;*/
+/*}*/
+/*.process .SignTable form table tr select{
+	border: 1px solid white;
+	border-radius: 5px;
+	height: 2em;
+}*/
+/*.process .SignTable form table tr label{*/
+	/*padding-top: 0px;*/
+/*}*/
+/*报名表*/
+table {
+	width: 810px;
+}
+.form-horizontal .form-group {
+	margin-right: 0px;
+	 margin-left: 0px;
+}
+.form-control {
+	display: inline-block;
+	width:240px!important;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+	-webkit-appearance: button;
+	cursor: pointer;
+	width: 160px;
+	font-size: 15px;
+	line-height: 2.0;
+	border: 1px solid #FFE5A3;
+	border-radius: 4px;
+}
+.form-horizontal .control-label {
+	margin-bottom: 7px;
+}
+td {
+	width: 300px;
+}
+/*工具类*/
+.left{
+	float:left;
+}
+.clear{
+	clear: both;
+}
+.red{
+	color: #c84360!important;
+}
+

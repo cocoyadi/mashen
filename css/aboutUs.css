@@ -1,0 +1,257 @@
+@charset "utf-8";
+/*公共样式*/
+*{
+    padding:0;
+    margin: 0;
+}
+body {
+    font-family: "Microsoft YaHei", "FontAwesome";
+    color: #fff;
+}
+a,p,h1,h2,h3,h4,h5{
+    color:#fff;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,li {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.container{
+    padding:0;
+    margin:0;
+    width: 100%;
+}
+.container1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+.left5{
+	margin-left:5px ;
+}
+/*头部样式*/
+header{
+    position: relative;
+    background: #000;
+    width: 100%;
+}
+header .breadcrumbs .bussiness_name {
+    float: right;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+header .breadcrumbs .bussiness_name a,  .bussiness_name p{
+    display: inline-block;
+}
+header .breadcrumbs .bussiness_name a:hover{
+    color:#39acde;
+}
+header nav{
+    clear: both;
+    background-color: #fff;
+}
+header nav .navigation {
+    width: 1200px;
+    margin: 0 auto;
+}
+header nav .navigation li img {
+    margin-top: -40px;
+    margin-right: 20px;
+    width: 140px;
+}
+header nav ul li:nth-child(1){
+	 padding: 0px;
+}
+header nav ul li {
+    float: left;
+    color: #000000;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+header nav ul>li:first-child {
+    margin-left: 0!important;
+}
+header nav ul li span {
+    display: block;
+    margin-top: -0px;
+    padding: 18px 45px 18px 45px;
+}
+header nav .navigation li #home span{
+    height:20px;
+    width: 80px;
+    background: url(../image/mashenindex/home.png) no-repeat center ;
+    background-position-y: 0px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 2px;
+    padding: 0;
+}
+header nav .navigation li #home{
+	display: block;
+	padding: 19px 15px 19px 15px;
+}
+header nav ul li span a {
+    color: #666;
+}
+header nav ul li:hover {
+    border-top:2px solid #30a2d6;
+    border-bottom:2px solid #30a2d6;
+}
+header nav ul li:nth-child(1):hover{
+	border: 0px;
+}
+header nav ul li span:hover a{
+    color: #30a2d6;
+}
+
+.container p{
+	color: #666;
+	font-size: 18px;
+	text-indent: 32px;
+	margin-top: 10px;
+	line-height: 26px;
+	margin-bottom: 0px;
+}
+.container .FBanner img {
+    width: 100%;
+}
+.container .overview{
+	height: 830px;	
+}
+
+.container .overview .title{
+	width: 100px;
+	font-size: 18px;
+	text-align: center;
+	padding-top:3px;
+	padding-bottom:3px;
+	background: #39acde;
+	margin-top: 30px;
+}
+.container .overview .company-img{
+	margin-top: 30px;
+}
+.container .structure img {
+    width: 100%;
+}
+.container .message {
+	height: 400px;	
+}
+.container .message .title{
+	width: 130px;
+	font-size: 18px;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:3px;
+	background: #39acde;
+	margin-top: 30px;
+}
+.container .message .message-con p{
+	font-size: 18px;
+}
+.container .message-con img {
+    float: left;
+}
+.container .message .message-con p img {
+    margin-right: 25px;
+    width: 215px;
+}
+.container .recruit{
+    background: #e4eef1;
+    height: 730px;
+    width: 100%;
+}
+.container .recruit img{
+	margin-top: 50px ;
+}
+.container .contain{
+    width: 100%;
+}
+/*尾部样式*/
+
+footer {
+    position: relative;
+    clear: both;
+}
+footer a {
+    color: #f0f0f0;
+}
+footer {
+    background-color: #323232;
+    height: 280px;
+}
+
+footer a {
+    color: #a7a7a7;
+}
+footer a:hover{
+    color:#39acde;
+}
+footer .footer-text{
+    text-align: center;
+}
+footer .contain_box {
+    background-color: #323232;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+footer .link h4 {
+    color: #fff;
+    font-weight: 600;
+}
+footer .link_title {
+    color: #a7a7a7;
+    margin-left: 7%;
+}
+footer .code img {
+    position: absolute;
+    top: 8px;
+    left: 81%;
+    max-width: 84px;
+}
+footer .info_text p {
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+}
+footer p.info_text.subscription {
+    position: absolute;
+    left: 80.4%;
+    top: 92px;
+}
+footer  .information.info_text.left {
+    clear: both;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+footer .information.info_text.right {
+    position: absolute;
+    right: 10%;
+}
+footer img.line {
+    position: absolute;
+    top: 113px;
+}
+footer .footer-text{
+    text-align: center;
+    margin-top: 33px;
+}
+footer .information1, footer .information1 p {
+    clear: both;
+    color: #8c8888;
+    margin-bottom: 0px;
+}
+footer .footer-content1 {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+footer .information.info_text ul li {
+    float: left;
+    margin-left: 15px;
+}
