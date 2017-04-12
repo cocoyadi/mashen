@@ -31,7 +31,6 @@ header{
     width: 100%;
 }
 header .breadcrumbs{
-    min-width: 1349px;
     background-color: #000;
     height: 42px;
 }
@@ -48,7 +47,6 @@ header .breadcrumbs .bussiness_name a:hover{
     color:#39acde;
 }
 header nav{
-    min-width: 1349px;
     clear: both;
     height: 43px;
     background-color: #fff;
@@ -58,42 +56,61 @@ header nav .navigation {
     margin: 0 auto;
 }
 header nav .navigation li img {
-    margin-top: -52px;
+    margin-top: -50px;
     margin-right: 20px;
     width: 140px;
+}
+header nav ul li:nth-child(1){
+	 padding: 0px;
 }
 header nav ul li {
     float: left;
     color: #000000;
     font-size: 17px;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-top: -10px;
 }
 header nav ul>li:first-child {
     margin-left: 0!important;
 }
 header nav ul li span {
     display: block;
-    padding: 17px 45px 17px 45px;
-    margin-top: -10px;
+    margin-top: -0px;
+    padding: 12px 45px 14px 45px;
+}
+header nav .navigation li #home span{
+    height:20px;
+    width: 80px;
+    background: url(../image/mashenindex/home.png) no-repeat center ;
+    background-position-y: 0px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 2px;
+    padding: 0;
+}
+header nav .navigation li #home{
+	display: block;
+	padding: 12px 15px 16px 15px;
 }
 header nav ul li span a {
     color: #666;
 }
-header nav ul li span:hover {
+header nav ul li:hover {
     border-top:2px solid #30a2d6;
     border-bottom:2px solid #30a2d6;
-
+}
+header nav ul li:nth-child(1):hover{
+	border: 0px;
 }
 header nav ul li span:hover a{
     color: #30a2d6;
 }
 /*正文部分样式*/
 .container .contain {
-    min-width: 1349px;
+	width: 100%;
 }
 .container .carousel_block img{
     width: 100%;
-    min-width: 1349px;
 
 }
 .container .carousel_block{
@@ -107,10 +124,9 @@ header nav ul li span:hover a{
     position: relative;
     width: 100%;
     overflow: hidden;
-    min-width: 1349px;
 }
 .container .com_feature {
-    min-width: 1349px;
+    width: 100%;
 }
 .container  .com_feature ul {
     margin: 0 auto;
@@ -361,7 +377,6 @@ footer .footer-text{
 }
 footer .contain_box {
     background-color: #323232;
-    min-width: 1349px;
     margin: 0 auto;
     padding-bottom: 20px;
 }

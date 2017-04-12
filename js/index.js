@@ -15,7 +15,6 @@ jQuery(document).ready(function($) {
         $(this).addClass("hidden");
         $(this).siblings(".a").removeClass("hidden");
     });
-
     $(".prompt_close").click(function(){
         $(".prompt_box").hide();
     });

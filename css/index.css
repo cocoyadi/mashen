@@ -1,3 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
 body {
 	font-family: "Microsoft YaHei", "FontAwesome";
 	color: #fff;
@@ -25,7 +31,7 @@ img.nav_sign_button2.img-responsive {
 }
 img.prompt_banner {
 	width: 100%;
-	min-width: 1349px;
+	min-width: 100%;
 }
 .prompt_box {
 	position: relative;
@@ -39,10 +45,10 @@ footer {
 }
 header {
 	background-color: #39acde;
-	min-width: 1349px;
+	min-width: 100%;;
 }
 .breadcrumbs {
-	width: 1349px;
+	width: 100%;
 	margin: 0 auto;
 }
 .prompt-seg {
@@ -58,7 +64,7 @@ header {
 	width: 1200px;
 }
 .contain_box {
-	min-width: 1349px;
+	min-width: 100%;
 }
 .footer-content {
 	width: 1200px;
@@ -300,7 +306,7 @@ footer {
 footer {
 	background-color: #323232;
 	height: 280px;
-	min-width: 1349px;
+	min-width: 100%;
 }
 
 footer a {
@@ -339,8 +345,8 @@ footer a {
 
 .float_block {
 	position: fixed;
-	left: 7px;
-	top: 280px;
+	left: 0px;
+	top: 25%;
 	z-index: 130;
 }
 
@@ -375,7 +381,7 @@ img.line {
 }
 
 p.business_description {
-	margin-left: 33%;
+	margin-left: 25%;
 }
 
 .col-xs-8 {
@@ -391,7 +397,7 @@ p.business_description {
 	max-width: 186px;
 }
 .navigation{
-	width: 1349px;
+	width: 100%;
 	margin: 0 auto;
 }
 .navigation_content {
@@ -483,10 +489,12 @@ ul.nav-list>li {
 }
 
 .myscroll li {
-	height: 32px;
-    text-align: center;
+	height: 39.5px;
+	line-height: 30px;
+    /*text-align: left;*/
 	color: #e9492b;
 	list-style: none;
+	border-bottom: 2px dashed #cccccc;
 }
 
 .myscroll a {
@@ -646,7 +654,7 @@ h4 {
 .teacher_description {
 	max-width: 52%;
 	float: right;
-	margin-top: -200px;
+	margin-top: -182px;
 	padding: 4px;
 }
 
@@ -672,7 +680,7 @@ h4 {
 
 .display_info img {
 	max-width: 237px;
-	margin-left: 2px;
+	margin-right: 2px;
 	margin-bottom: 34px;
 }
 
@@ -925,7 +933,7 @@ footer a:hover{
 .prompt_seg_box {
 	width: 140px;
 	position: absolute;
-	right: 298px;
+	right: 150px;
 }
 a.am-prev {
 	left: 22%;
@@ -933,10 +941,13 @@ a.am-prev {
 .myscroll li a p{
 	display: block;
 	width:97%;
-	margin:0 auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
 	overflow: hidden;
 	white-space:nowrap;
 	text-overflow:ellipsis;
+	
 }
 .myscroll li a:hover{
 	text-decoration: none;

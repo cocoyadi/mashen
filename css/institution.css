@@ -9,12 +9,10 @@
 .container .Banner img{
     width: 100%;
     margin-bottom:20px;
-    min-width: 1349px;
 }
 .container .recommend{
    height: 730px;
     width:100%;
-    min-width: 1349px;
 }
 .container .recommend .recommend_block {
     width: 1200px;
@@ -35,7 +33,6 @@
 .platform_rec{
     background-image: url(../image/school/03.png);
     height: 790px;
-    min-width: 1349px;
 }
 .platform_rec img{
     width:100%;

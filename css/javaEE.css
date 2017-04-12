@@ -89,7 +89,6 @@ body {
 }
 .javaee_desc>img {
 	width: 100%;
-	min-width: 1349px;
 }
 .background img {
 	width: 650px;
@@ -107,4 +106,7 @@ body {
 }
 .countdown_block li a img:hover {
 	width: 78px;
+}
+.countdown {
+	margin-top: -20px;
 }

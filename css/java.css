@@ -19,7 +19,6 @@ footer {
 }
 
 .contain_box {
-    min-width: 1349px;
     margin: 0 auto;
 }
 
@@ -85,7 +84,7 @@ img.outer {
     border-bottom: 3px solid #39acde;
 }
 .java_desc {
-    margin-top: 45px;
+    margin-top: 20px;
 }
 td>p {
     text-align: left;

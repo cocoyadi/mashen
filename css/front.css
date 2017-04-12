@@ -25,7 +25,6 @@ nav ul>li:first-child {
     margin-left: 0!important;
 }
 .contain_box {
-    min-width: 1349px;
     margin: 0 auto;
 }
 
@@ -88,8 +87,6 @@ nav a {
 }
 
 .countdown {
-    height: 110px;
-    min-width: 1349px;
     margin: 0 auto;
 }
 
@@ -107,7 +104,7 @@ nav a {
 .countdown ul {
     border-left: 1px solid #666;
     border-right: 1px solid #666;
-    height: 98px;
+    height:150px;
 }
 
 .ui_desc,
@@ -207,7 +204,6 @@ footer {
     height: 280px;
     background-color: #323232;
     width: 100%;
-    min-width: 1349px;
     margin: 0 auto;
 }
 
@@ -248,7 +244,6 @@ img.syllabus_content {
 
 nav {
     height: 40px;
-    min-width: 1349px;
 }
 
 nav img {
@@ -299,12 +294,13 @@ nav li {
 .countdown ul {
     width: 1200px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .countdown p {
     margin-left: 9%;
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 
@@ -315,9 +311,13 @@ nav li {
 
 .countdown span {
     background-color: #f0f0f0;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
     margin-left: 2px;
     margin-right: 2px;
+    display: inline-block;
+    width: 49px;
 }
 
 .countdown ul>li:first-child {
@@ -520,7 +520,7 @@ p.info_text.subscription {
 .float_block {
     position: fixed;
     left: 0;
-    top: 280px;
+    top: 25%;
     z-index: 130;
 }
 
@@ -725,7 +725,7 @@ table.syllabus_content.table-bordered th {
 .teacher_description {
     max-width: 52%;
     float: right;
-    margin-top: -180px;
+    margin-top: -167px;
     padding: 4px;
 }
 
@@ -789,4 +789,9 @@ table.syllabus_content.table-bordered th {
 p.time.left {
     margin-right: 100px;
 }
-
+.countdown li>p:last-child {
+    margin-top: -10px;
+}
+.FBanner {
+    margin-bottom: 20px;
+}
